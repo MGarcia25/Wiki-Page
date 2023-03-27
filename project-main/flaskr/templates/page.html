@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block title %} 
+{{page_name.strip(".txt")}} 
+{% endblock %}
+
+{% block content %}
+
+<h3> Retro Video Game </h3> <p> {{page_name.strip(".txt")}} </p>
+
+<h3> Description </h3> <p> {{text_from_page}} </p> 
+{% endblock %}
